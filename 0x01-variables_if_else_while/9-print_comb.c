@@ -12,16 +12,17 @@ int main(void)
 {
 	/* Declare and initialize the character to be written */
 	int ch = 48;
-	/* frist number */
-	putchar(ch);
 	/* Write the lowercase English alphabet characters to stdout */
-	for (ch = 49; ch <= 57; ch++)
+	for (ch = 48; ch <= 57; ch++)
 	{
-		putchar(44);
-		putchar(32);
+		if (ch != 48)
+		{
+			putchar(44);
+			putchar(32);
+		}
 		putchar(ch);
 	}
 	/* Write a newline character to separate output */
-	/* putchar('\n'); */
+	putchar('\n');
 	return (0);
 }
