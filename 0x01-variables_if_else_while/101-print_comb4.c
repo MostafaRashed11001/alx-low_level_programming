@@ -19,7 +19,7 @@ int main(void)
 		{
 			for (last = ch + 1; last <= 57; last++)
 			{
-				if (ch != 50)
+				if (last != 50)
 				{
 					putchar(44);
 					putchar(32);
