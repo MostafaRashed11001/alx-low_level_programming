@@ -73,5 +73,16 @@ int print_sign(int n);
  * If n is negative, the function returns -n.
  */
 int _abs(int n);
+/**
+ * print_last_digit - Prints the last digit of a number
+ * @n: The number to get the last digit from
+ *
+ * Return: The value of the last digit
+ *
+ * Description:
+ * This function prints the last digit of the given number and returns its value.
+ * It works for both positive and negative numbers.
+ */
+int print_last_digit(int n);
 
 #endif /* MAIN_H */
