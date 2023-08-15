@@ -61,5 +61,17 @@ int _isalpha(int c);
  * and returns -1 and prints '-' if the number is less than zero.
  */
 int print_sign(int n);
+/**
+ * _abs - Computes the absolute value of an integer
+ * @n: The integer for which to compute the absolute value
+ *
+ * Return: The absolute value of n
+ *
+ * Description:
+ * This function computes the absolute value of the given integer.
+ * If n is greater than or equal to zero, the function returns n.
+ * If n is negative, the function returns -n.
+ */
+int _abs(int n);
 
 #endif /* MAIN_H */
