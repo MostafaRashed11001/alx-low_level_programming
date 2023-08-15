@@ -24,20 +24,20 @@ void print_times_table(int n)
 					_putchar(',');
 					_putchar(' ');
 				}
-				if (product < 10)
+				if (product < 10 && column != 0)
 				{
 					_putchar(' ');
 				}
-				else if (product < 100)
+				else if (product < 100 && column != 0)
 				{
 					_putchar(' ');
 				}
-				if (product >= 100)
+				if (product >= 100 && column != 0)
 				{
 					_putchar((product / 100) + '0');
 					_putchar(((product / 10) % 10) + '0');
 				}
-				else if (product >= 10)
+				else if (product >= 10 && column != 0)
 				{
 					_putchar((product / 10) + '0');
 				}
