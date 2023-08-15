@@ -10,7 +10,7 @@
  */
 int main(void)
 {
-	unsigned long long fib1 = 1, fib2 = 2, next_fib, even_sum = 0;
+	unsigned long int fib1 = 1, fib2 = 2, next_fib, even_sum = 0;
 	/* Calculate even-valued Fibonacci terms up to 4,000,000 */
 	while (fib2 <= 4000000)
 	{
@@ -23,6 +23,6 @@ int main(void)
 		fib2 = next_fib;
 	}
 	/* Print the sum of even-valued terms */
-	printf("%llu\n", even_sum);
+	printf("%lu\n", even_sum);
 	return (0);
 }
