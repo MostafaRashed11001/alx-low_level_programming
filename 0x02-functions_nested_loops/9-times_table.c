@@ -23,7 +23,7 @@ void times_table(void)
 				_putchar(' ');
 				/* Print space character */
 			}
-			if (product < 10)
+			if (product < 10 && column != 0)
 			{
 				_putchar(' ');
 				/* Print leading space for single-digit products */
