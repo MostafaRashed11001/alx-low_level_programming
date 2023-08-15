@@ -28,7 +28,7 @@ void times_table(void)
 				_putchar(' ');
 				/* Print leading space for single-digit products */
 			}
-			else
+			else if (column != 0)
 			{
 				_putchar((product / 10) + '0');
 				/* Print tens digit of product */
