@@ -15,5 +15,13 @@ int _putchar(char c);
  * print_alphabet - Prints the lowercase alphabet followed by a new line
  */
 void print_alphabet(void);
+/**
+ * print_alphabet_x10 - Prints the lowercase alphabet 10 times followed by new lines
+ *
+ * Description:
+ * This function prints the lowercase alphabet from 'a' to 'z' ten times,
+ * with each set followed by a newline character.
+ */
+void print_alphabet_x10(void);
 
 #endif /* MAIN_H */
