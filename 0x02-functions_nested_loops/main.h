@@ -122,5 +122,15 @@ int add(int a, int b);
  * number being 98.
  */
 void print_to_98(int n);
+/**
+ * print_times_table - Prints the n times table
+ * @n: The times table to print
+ *
+ * Description:
+ * This function prints the n times table in the specified format,
+ * starting from 0 and going up to n times n.
+ * The function will not print anything if n is greater than 15 or less than 0.
+ */
+void print_times_table(int n);
 
 #endif /* MAIN_H */
