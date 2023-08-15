@@ -111,5 +111,16 @@ void times_table(void);
  * This function takes two integers as input and returns their sum.
  */
 int add(int a, int b);
+/**
+ * print_to_98 - Prints natural numbers from n to 98
+ * @n: The starting number
+ *
+ * Description:
+ * This function prints all natural numbers from the given number n
+ * up to 98, separated by a comma and a space. The numbers are printed
+ * in order, with the first number being the input n and the last
+ * number being 98.
+ */
+void print_to_98(int n);
 
 #endif /* MAIN_H */
