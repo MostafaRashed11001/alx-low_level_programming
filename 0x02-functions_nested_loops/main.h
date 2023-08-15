@@ -11,5 +11,9 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 int _putchar(char c);
+/**
+ * print_alphabet - Prints the lowercase alphabet followed by a new line
+ */
+void print_alphabet(void);
 
 #endif /* MAIN_H */
