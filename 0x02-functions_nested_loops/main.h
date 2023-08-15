@@ -92,5 +92,13 @@ int print_last_digit(int n);
  * starting from 00:00 (midnight) to 23:59 (just before midnight).
  */
 void jack_bauer(void);
+/**
+ * times_table - Prints the 9 times table
+ *
+ * Description:
+ * This function prints the 9 times table in a specific format,
+ * starting with 0 and going up to 9 times 9.
+ */
+void times_table(void);
 
 #endif /* MAIN_H */
