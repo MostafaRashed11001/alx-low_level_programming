@@ -84,5 +84,13 @@ int _abs(int n);
  * It works for both positive and negative numbers.
  */
 int print_last_digit(int n);
+/**
+ * jack_bauer - Prints every minute of the day of Jack Bauer
+ *
+ * Description:
+ * This function prints every minute of the day of Jack Bauer,
+ * starting from 00:00 (midnight) to 23:59 (just before midnight).
+ */
+void jack_bauer(void);
 
 #endif /* MAIN_H */
