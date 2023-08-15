@@ -100,5 +100,16 @@ void jack_bauer(void);
  * starting with 0 and going up to 9 times 9.
  */
 void times_table(void);
+/**
+ * add - Adds two integers
+ * @a: The first integer
+ * @b: The second integer
+ *
+ * Return: The sum of a and b
+ *
+ * Description:
+ * This function takes two integers as input and returns their sum.
+ */
+int add(int a, int b);
 
 #endif /* MAIN_H */
