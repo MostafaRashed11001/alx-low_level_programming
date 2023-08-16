@@ -11,7 +11,6 @@ void positive_or_negative(int i);
  * @c: third integer
  * Return: largest number
  */
-
 int largest_number(int a, int b, int c);
 /**
 * print_remaining_days - takes a date and prints how many days are
@@ -21,6 +20,6 @@ int largest_number(int a, int b, int c);
 * @year: year
 * Return: void
 */
-
 void print_remaining_days(int month, int day, int year);
+
 #endif /* MAIN_H */
