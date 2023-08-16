@@ -9,13 +9,13 @@
  */
 int main(void)
 {
-	unsigned long fib1 = 1, fib2 = 2, next_fib, i;
+	int fib1 = 1, fib2 = 2, next_fib, i;
 	/* Print the first two Fibonacci numbers */
-	printf("%lu, %lu", fib1, fib2);
+	printf("%d, %d", fib1, fib2);
 	for (i = 2; i < 98; i++)
 	{
 		next_fib = fib1 + fib2;
-		printf(", %lu", next_fib);
+		printf(", %d", next_fib);
 		fib1 = fib2;
 		fib2 = next_fib;
 	}
