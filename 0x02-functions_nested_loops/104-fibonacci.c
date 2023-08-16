@@ -12,7 +12,7 @@ int main(void)
 	unsigned long int fib1 = 1, fib2 = 2, next_fib;
 	/* Print the first two Fibonacci numbers */
 	printf("%lu, %lu", fib1, fib2);
-	unsigned int i = 0;
+	int i;
 
 	for (i = 2; i < 98; i++)
 	{
