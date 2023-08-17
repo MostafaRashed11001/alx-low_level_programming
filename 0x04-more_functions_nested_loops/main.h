@@ -57,4 +57,10 @@ void more_numbers(void);
  */
 void print_line(int n);
 
+/**
+ * print_diagonal - Draw a diagonal line using backslashes
+ * @n: The number of times to print backslashes
+ */
+void print_diagonal(int n);
+
 #endif /* MAIN_H */
