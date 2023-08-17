@@ -16,4 +16,13 @@ int _isupper(int c);
  */
 int _isdigit(int c);
 
+/**
+ * mul - Multiply two integers
+ * @a: The first integer
+ * @b: The second integer
+ *
+ * Return: The product of a and b
+ */
+int mul(int a, int b);
+
 #endif /* MAIN_H */
