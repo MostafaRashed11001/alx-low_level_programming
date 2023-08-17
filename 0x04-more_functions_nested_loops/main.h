@@ -51,4 +51,10 @@ void print_most_numbers(void);
  */
 void more_numbers(void);
 
+/**
+ * print_line - Draw a straight line using underscores
+ * @n: The number of times to print underscores
+ */
+void print_line(int n);
+
 #endif /* MAIN_H */
