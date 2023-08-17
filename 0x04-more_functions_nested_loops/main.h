@@ -1,5 +1,15 @@
 #ifndef MAIN_H
 #define MAIN_H
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c);
 /**
  * _isupper - Check if a character is uppercase
  * @c: The character to be checked
@@ -24,5 +34,10 @@ int _isdigit(int c);
  * Return: The product of a and b
  */
 int mul(int a, int b);
+
+/**
+ * print_numbers - Print numbers from 0 to 9 followed by a new line
+ */
+void print_numbers(void);
 
 #endif /* MAIN_H */
