@@ -75,4 +75,10 @@ void print_square(int size);
  */
 void print_triangle(int size);
 
+/**
+ * print_number - Print an integer
+ * @n: The integer to be printed
+ */
+void print_number(int n);
+
 #endif /* MAIN_H */
