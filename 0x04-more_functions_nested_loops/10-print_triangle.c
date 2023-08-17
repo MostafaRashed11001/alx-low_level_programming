@@ -11,15 +11,19 @@ void print_triangle(int size)
 	if (size <= 0)
 	{
 		_putchar('\n');
-		return;
 	}
-
-	for (row = 1; row <= size; row++)
+	else
 	{
-		for (column = 1; column <= row; column++)
+		for (row = 1; row <= size; row++)
 		{
-			_putchar('#');
+			for (column = 1; column <= size; column++)
+			{
+				if ((row + column) <= size)
+					_putchar(' ');
+				else
+					_putchar('#');
+			}
+			_putchar('\n');
 		}
-		_putchar('\n');
 	}
 }
